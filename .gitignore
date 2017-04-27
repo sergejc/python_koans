@@ -1,5 +1,11 @@
-*.pyc
-*.swp
-.DS_Store
-answers
-.hg
+/*
+!.gitignore
+!python3
+!LICENSE
+!README.md
+
+python3/*
+!python3/koans
+
+python3/koans/*
+!python3/koans/*.py
